@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fionanguyen/Documents/demologinfionan/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/fionanguyen/Documents/DEMOtest/Demo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/fionanguyen/.gradle/caches/transforms-2/files-2.1/d255798b3263f4a3c8e304b7de4de531/coordinatorlayout-1.0.0/res/values/values.xml",
@@ -23,22 +23,20 @@
                     }
                 },
                 {
-                    "source": "/Users/fionanguyen/Documents/demologinfionan/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/fionanguyen/Documents/DEMOtest/Demo/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,303,385,489,598,718,811",
+                        "endColumns": "143,103,81,103,108,119,92,69",
+                        "endOffsets": "194,298,380,484,593,713,806,876"
                     },
                     "to": {
-                        "startLines": "76",
-                        "startColumns": "4",
-                        "startOffsets": "6425",
-                        "endLines": "80",
-                        "endColumns": "12",
-                        "endOffsets": "6717"
+                        "startLines": "67,68,69,70,71,72,73,74",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5528,5672,5776,5858,5962,6071,6191,6284",
+                        "endColumns": "143,103,81,103,108,119,92,69",
+                        "endOffsets": "5667,5771,5853,5957,6066,6186,6279,6349"
                     }
                 },
                 {
@@ -58,23 +56,6 @@
                         "endLines": "3,4,5,6,7,8,9,10,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66,334,353",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "251,331,421,511,591,672,752,832,3295,3476,3601,3708,3888,4011,4127,4230,4585,4690,4871,4996,5171,5319,5382,5444,5523,21299,21716"
-                    }
-                },
-                {
-                    "source": "/Users/fionanguyen/Documents/demologinfionan/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,303,385,489,598,718,811",
-                        "endColumns": "143,103,81,103,108,119,92,69",
-                        "endOffsets": "194,298,380,484,593,713,806,876"
-                    },
-                    "to": {
-                        "startLines": "67,68,69,70,71,72,73,74",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5528,5672,5776,5858,5962,6071,6191,6284",
-                        "endColumns": "143,103,81,103,108,119,92,69",
-                        "endOffsets": "5667,5771,5853,5957,6066,6186,6279,6349"
                     }
                 },
                 {
@@ -111,6 +92,25 @@
                         "startOffsets": "3057,4235",
                         "endColumns": "67,166",
                         "endOffsets": "3120,4397"
+                    }
+                },
+                {
+                    "source": "/Users/fionanguyen/Documents/DEMOtest/Demo/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "76",
+                        "startColumns": "4",
+                        "startOffsets": "6425",
+                        "endLines": "80",
+                        "endColumns": "12",
+                        "endOffsets": "6717"
                     }
                 }
             ]
