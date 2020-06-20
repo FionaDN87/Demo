@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101566228054",
+    "firebase_url": "https://fir-fb185.firebaseio.com",
+    "project_id": "fir-fb185",
+    "storage_bucket": "fir-fb185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101566228054:android:7121faedd2d7f7aba9fdf7",
+        "android_client_info": {
+          "package_name": "com.gmail.fiona.nguyen5587.demologinfionan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101566228054-64vonp2aijo5kpaout9evihnb58vjnn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4H348fieemqmVhIw65CEppUK2JOTbJHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101566228054-64vonp2aijo5kpaout9evihnb58vjnn5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "101566228054-r6b4kup897h40v6qddcj9gtd0est323a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gmail.fiona.nguyen5587.demologinfionan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
