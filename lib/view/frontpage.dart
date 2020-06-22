@@ -28,11 +28,13 @@ class FrontPageState extends State<FrontPage>{
     this.context = context;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         title: Text('Demo for Login page'),
         actions: <Widget>[
           FlatButton.icon(
             icon: Icon(Icons.people),
             label: Text("Create Account"),
+            textColor: Colors.white,
             onPressed: controller.creatAccount,
           ),
 

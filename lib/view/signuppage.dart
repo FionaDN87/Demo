@@ -30,6 +30,7 @@ class SignUpPageState extends State<SignUpPage>{
     this.context = context;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         title: Text('Create Account'),
 
       ),
