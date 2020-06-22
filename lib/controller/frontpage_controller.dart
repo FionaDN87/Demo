@@ -1,5 +1,7 @@
 import 'package:demologinfionan/controller/myfirebase.dart';
+import 'package:demologinfionan/model/user.dart';
 import 'package:demologinfionan/view/frontpage.dart';
+import 'package:demologinfionan/view/homepage.dart';
 import 'package:demologinfionan/view/mydialog.dart';
 import 'package:demologinfionan/view/signuppage.dart';
 import 'package:flutter/material.dart';
@@ -46,13 +48,7 @@ class FrontPageController{
       state.user.uid = await MyFirebase.login(
         email: state.user.email, 
         password:state.user.password);
-        MyDialog.info(
-        context: state.context,
-        title: 'Login Success',
-        message: 'Successfully login in',
-        action: () => Navigator.pop(state.context),
-
-      );
+        
     }catch(e){
       MyDialog.info(
         context: state.context,
@@ -61,6 +57,27 @@ class FrontPageController{
         action: () => Navigator.pop(state.context),
 
       );
+      return;
     }
+
+    //Login success, read user profile
+   try{
+   User user =  await MyFirebase.readProfile(state.user.uid);
+    
+    state.user.displayName = user.displayName;
+    
+   } catch(e) {
+
+   }
+    
+    MyDialog.info(
+        context: state.context,
+        title: 'Login Success',
+        message: 'Press <OK> to navigate to Home Page',
+        action: () => Navigator.push(state.context, MaterialPageRoute(
+          builder: (context) => HomePage(state.user),
+        ))
+
+      );
   }
 }

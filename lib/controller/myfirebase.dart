@@ -22,4 +22,12 @@ class MyFirebase {
       );
       return auth.user.uid;
   }
+
+  static Future<User> readProfile(String uid) async {
+    DocumentSnapshot doc = await Firestore.instance.collection(User.PROFILE_COLLECION)
+      .document(uid).get();
+
+      return User.deserialize(doc.data);
+
+  }
 }
